@@ -1,0 +1,35 @@
+.template {
+  display: grid;
+  grid-template-columns: 220px 2fr;
+  grid-template-areas:
+    "sidenav content"
+    "sidenav content"
+    "sidenav footer"
+  ;
+}
+.logo {
+  grid-area: logo;
+}
+
+.nav {
+  grid-area: nav;
+  margin-top: 20px;
+  margin-left: 50px;
+  
+}
+
+.content {
+  grid-area: content;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 60px;
+}
+
+.sidenav {
+  grid-area: sidenav;
+}
+
+.footer {
+  grid-area: footer;
+}
+
